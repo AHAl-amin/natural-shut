@@ -25,40 +25,40 @@ const DetoxPlanAdventage = () => {
   return (
     <div className='w-full flex justify-center mb-10 '>
       {/* Header */}
-    <div className='2xl:max-w-7xl lg:max-w-6xl w-full'>
-          <div className='bg-[#1BA500] text-white py-4 px-6 text-center'>
-        <h1 className='text-xl md:text-2xl font-bold'>ডেটোক্স প্লাম এর উপকারিতা</h1>
-      </div>
+      <div className='2xl:max-w-7xl lg:max-w-6xl w-full'>
+        <div className='bg-[#1BA500] text-white py-4 px-6 text-center'>
+          <h1 className='text-xl md:text-2xl font-bold'>ডেটোক্স প্লাম এর উপকারিতা</h1>
+        </div>
 
-      {/* Main Content */}
-      <div className='px-4 py-12 md:px-4'>
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 items-start'>
-          
-          {/* Left Side - Benefits List */}
-          <div className='space-y-2'>
-            {benefits.map((benefit, index) => (
-              <div key={index} className='flex gap-3 items-center'>
-                <Check className='p-1 size-6 text-white bg-[#1BA500] rounded-full flex-shrink-0 mt-1' />
-                <p className='text-[#54595F] text-[20px] font-semibold leading-relaxed'>{benefit}</p>
-              </div>
-            ))}
-          </div>
+        {/* Main Content */}
+        <div className='px-4 py-12 md:px-4'>
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 items-start'>
 
-          {/* Right Side - Product Section */}
-          <div>
-            <img src="https://naturalshut.com/wp-content/uploads/2025/08/Untitled-design.png" alt="Adventage image" />
+            {/* Left Side - Benefits List */}
+            <div className='space-y-2'>
+              {benefits.map((benefit, index) => (
+                <div key={index} className='flex gap-3 items-center'>
+                  <Check className='p-1 size-6 text-white bg-[#1BA500] rounded-full flex-shrink-0 mt-1' />
+                  <p className='text-[#54595F] text-[20px] font-semibold leading-relaxed'>{benefit}</p>
+                </div>
+              ))}
+            </div>
+
+            {/* Right Side - Product Section */}
+            <div>
+              <img src="https://naturalshut.com/wp-content/uploads/2025/08/Untitled-design.png" alt="Adventage image" />
+            </div>
           </div>
         </div>
-      </div>
 
-      {/* Bottom CTA Button */}
-       <div className='flex justify-center pt-4'>
+        {/* Bottom CTA Button */}
+        <div className='flex justify-center pt-4'>
           <button className='bg-[#61CE70]  text-white font-bold 
           py-2 px-8 rounded cursor-pointer text-lg transition-colors duration-200 shadow-lg'>
             আমি ফিট হতে চাই 👇
           </button>
         </div>
-    </div>
+      </div>
     </div>
   )
 }

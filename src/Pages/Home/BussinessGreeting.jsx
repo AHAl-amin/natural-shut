@@ -2,6 +2,7 @@ import React from 'react'
 
 function BussinessGreeting() {
   return (
+
     <div className=' bg-[#02C654] py-12 flex items-center justify-center'>
       <div className='  space-y-4 2xl:max-w-7xl lg:max-w-6xl w-full   '>
         {/* Main Heading with Gradient */}
@@ -30,7 +31,7 @@ function BussinessGreeting() {
 
         {/* Description Text */}
         <div className='text-[#FFD700] text-center text-sm md:text-base font-medium'>
-         এটি অ্যাডভান্স ফর্মুলায় তৈরি যা আপনার শরীরের বুড়ি ওজন কমাবে মাত্র ১৫ থেকে ২০ দিনে । তাই দেরি না করে আজই অর্ডার করুন
+          এটি অ্যাডভান্স ফর্মুলায় তৈরি যা আপনার শরীরের বুড়ি ওজন কমাবে মাত্র ১৫ থেকে ২০ দিনে । তাই দেরি না করে আজই অর্ডার করুন
         </div>
 
         {/* Call to Action Button */}
